@@ -1,14 +1,12 @@
 package com.softtek.modelo.Ej3;
 
-public class Figura {
+public abstract class Figura {
     protected int x;
     protected int y;
 
-    public double calcularArea() {
-        return 0.0;
-    }
+    public abstract double calcularArea();
 
     public String mostrarPosicion() {
-        return "";
+        return "Posición: (" + x + ", " + y + ")";
     }
 }
